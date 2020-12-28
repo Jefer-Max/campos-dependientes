@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios Js</title>
+  </head>
+  <body>
+    <h1>Ejercicios Javascript</h1>
+    <h2>Campos Dependientes</h2>
+
+    <form name="form1" method="post" action="">
+      <label>User Name</label><br />
+      <input type="text" name="user" /><br /><br />
+      <label>Hometown</label><br />
+
+      <select name="select" onchange="slctryole(this,this.form.select2)">
+        <option value="">- - Selecione un Departamento - -</option>
+        <option value="antioquia">Antioquia</option>
+        <option value="atlantico">Atlantico</option>
+        <option value="cesar">Cesár</option>
+      </select>
+      <select name="select2" onchange="slctryole(this,this.form.select3)">
+        <option>- - - - -</option>
+      </select>
+    </form>
+
+    <script src="formulario.js"></script>
+  </body>
+</html>
